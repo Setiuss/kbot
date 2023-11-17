@@ -53,6 +53,10 @@ to quickly create a Cobra application.`,
 				err = m.Send(fmt.Sprintf("Hello I'm Kbot %s!", appVersion))
 			case "Hello":
 				err = m.Send(fmt.Sprintf("Hello I'm Kbot %s!", appVersion))
+			case "How are You?":
+				err = m.Send(fmt.Sprintf("I'm fine, thanks!"))
+			case "how are you?":
+				err = m.Send(fmt.Sprintf("I'm fine, thanks!"))
 
 			}
 
