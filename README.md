@@ -1,6 +1,8 @@
 # kbot
 devops application from scratch
 
+t.me/setius1_bot
+
 go mod init github.com/Setiuss/kbot
 
 go install github.com/spf13/cobra-cli@latest
