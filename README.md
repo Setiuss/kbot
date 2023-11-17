@@ -1,7 +1,7 @@
 # kbot
 devops application from scratch
 
-t.me/setius1_bot
+cli man:
 
 go mod init github.com/Setiuss/kbot
 
@@ -28,3 +28,13 @@ export TELE_TOKEN
 go build -ldflags "-X="github.com/Setiuss/kbot/cmd.appVersion=v1.0.1
 
 ./kbot start
+
+
+Telegram bot:
+t.me/setius1_bot
+
+Command:
+/start hello
+/start Hello
+/start How are You?
+/start how are you?
