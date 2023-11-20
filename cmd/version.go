@@ -11,7 +11,6 @@ import (
 
 // appVersion Aplication Version
 var appVersion = "Version"
-//var appVersion = "v1.0.2"
 
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
