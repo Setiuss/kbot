@@ -4,4 +4,4 @@ format:
 	gofmt -s -w ./
 
 build:
-	go build -v -o kbot -ldflags "-X="github.com/Setiuss/kbot/cmd.appVersion=${VERSION}
+	CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${shell dpkg --print-architecture} go build -v -o kbot -ldflags "-X="github.com/Setiuss/kbot/cmd.appVersion=${VERSION}
