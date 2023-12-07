@@ -9,6 +9,9 @@ image:
   tag: "v1.0.5-08ab3ae"
 
 secret:
-  name: kbot
-  tokenKey: token
-  tokenName: TELE_TOKEN
+  name: "kbot"
+  tokenKey: "token"
+  tokenName: "TELE_TOKEN"
+
+securityContext:
+  privileged: true
