@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: setiuss
-  tag: "v1.0.7-9be59cd"
+  tag: "v1.0.7-c7d6ea6"
   arch: amd64
 
 secret:
