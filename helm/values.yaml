@@ -5,7 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  repository: setiuss
+  tag: "v1.0.5-08ab3ae"
+
+secret:
+  name: kbot
+  tokenKey: token
+  tokenName: TELE_TOKEN
