@@ -15,11 +15,11 @@ jobs:
 
       - name: Run test
         run: make test
-      - name: Docker Hub login 
-        uses: docker/login-action@v2 
-        with: 
-          username: ${{ secrets_DOCKERHUB_USERNAME }} 
-          password: ${{ secrets_DOCKERHUB_TOKEN }} 
+#      - name: Docker Hub login 
+#        uses: docker/login-action@v2 
+#        with: 
+#          username: ${{ secrets_DOCKERHUB_USERNAME }} 
+#          password: ${{ secrets_DOCKERHUB_TOKEN }} 
 #      - name: Build&Push 
 #        env: 
 #          APP: "kbot" 
