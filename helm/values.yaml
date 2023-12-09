@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: setiuss
-  tag: "v1.0.10-206d695"
+  tag: "v1.0.10-aa33754"
   arch: amd64
 secret:
   name: "kbot"
