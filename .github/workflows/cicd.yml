@@ -27,7 +27,7 @@ jobs:
 #          password: ${{ secrets.DOCKERHUB_TOKEN }}
 #          username: ${{ secrets.GITHUB_ACTOR }}
 #          password: ${{ secrets.GITHUB_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build&Push 
         env: 
           APP: "kbot" 
