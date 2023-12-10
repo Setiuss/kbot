@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: setiuss
-  tag: "v1.0.10-933022a"
+  tag: "v1.0.10-2c35200"
   os: linux
   arch: amd64
 secret:
